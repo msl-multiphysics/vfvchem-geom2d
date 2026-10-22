@@ -1,0 +1,6 @@
+---
+alwaysApply: true
+---
+- Use the same code, commenting, and naming style as the rest of the code unless otherwise stated.
+- Follow the formatting of the codebase. Do NOT use rustfmt or similar formatters.
+- Prefer simple, readable, and elegant code. Avoid using excessive helper functions.

@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+---
+- Assume that physical properties (diffusion, density, viscosity, etc.) are NOT constant unless otherwise stated.

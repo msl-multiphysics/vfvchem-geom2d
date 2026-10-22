@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vfvchem-geom2d"
+version = "0.0.0"
+description = "2D geometry helpers built on gmsh for VFVChem"
+requires-python = ">=3.9"
+dependencies = [
+    "gmsh",
+    "pyvista",
+    "matplotlib",
+    "numpy",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pyright]
+extraPaths = ["src"]
